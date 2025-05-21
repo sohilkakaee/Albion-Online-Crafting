@@ -25,7 +25,7 @@ MESSAGES = {
         "server_prompt": "Kodoom server? (west, east, europe): ",
         "invalid_option": "Meghdar motabar nist. Gozinehaye motabar: {options}",
         "tier_prompt": "Tier item (T4, T5, T6, T7, T8): ",
-        "enchant_prompt": "Enchantment (khali='', .1, .2, .3): ",
+        "enchant_prompt": "Enchantment (khali='', .1, .2, .3 .4): ",
         "input_error": "❌ Khata dar vorodi: {error}. Lotfan dobare vared kon.",
         "keyboard_interrupt": "❌ Barname tavasot karbar motavaqf shod.",
         "number_prompt": "Lotfan adad vared kon.",
@@ -84,7 +84,7 @@ MESSAGES = {
         "server_prompt": "Which server? (west, east, europe): ",
         "invalid_option": "Invalid input. Valid options: {options}",
         "tier_prompt": "Item tier (T4, T5, T6, T7, T8): ",
-        "enchant_prompt": "Enchantment (empty='', .1, .2, .3): ",
+        "enchant_prompt": "Enchantment (empty='', .1, .2, .3 .4): ",
         "input_error": "❌ Input error: {error}. Please try again.",
         "keyboard_interrupt": "❌ Program stopped by user.",
         "number_prompt": "Please enter a number.",
@@ -265,7 +265,7 @@ def ejra(lang="finglish"):
         tier = begir_vorodi("tier_prompt", ['T4', 'T5', 'T6', 'T7', 'T8'], lang)
         enchant_level = ''
         if item_type.lower() == 'other':
-            enchant = begir_vorodi("enchant_prompt", ['', '.1', '.2', '.3'], lang)
+            enchant = begir_vorodi("enchant_prompt", ['', '.1', '.2', '.3','.4'], lang)
             enchant_level = enchant.replace('.', '') if enchant else ''
     except Exception as e:
         print(MESSAGES[lang]["input_error"].format(error=e))
