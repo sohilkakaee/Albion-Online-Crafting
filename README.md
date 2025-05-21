@@ -195,9 +195,9 @@ Tavajoh Dashte Bashid Kie In Prozhe Felan Beta Hast Bugi Chezi didin begin
 💰 Sood har item ba Focus (35% return): 3513.00 Silver
 
 
-📜 Lisans
+📜 LICENSE 
 
-In prozhe tahte lisans MIT License montasher shode. Baraye joziiat bishtar, fail LICENSE ro bebin.
+In prozhe tahte lisans MIT License montasher shode. Baraye joziiat bishtar, File LICENSE ro bebin.
 
 📬 Tamas ba Man
 
