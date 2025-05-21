@@ -41,7 +41,7 @@ To run this project, you’ll need:
 
 1. Install Python
    
-Visit python.org or Download Files and download the latest Python version (e.g., 3.11)
+Visit python.org  and download the latest Python version (e.g., 3.11)
 
 During installation, check Add Python to PATH.
 Verify installation by running
