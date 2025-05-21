@@ -72,6 +72,9 @@ Cheapest city: Lymhurst - 480 silver
 
 🔴 Most expensive city: Martlock - 500 silver
 
+📜 License
+
+The project is licensed under the MIT license. For more details, see the license file.
 
 🎯 Results:
 
@@ -84,7 +87,9 @@ Cheapest city: Lymhurst - 480 silver
 💰 Sood har ba focus item (35% return): 3513.00 silver
 
 📬 Contact
+📜 License
 
+The project is licensed under the MIT license. For more details, see the license file.
 Have questions or suggestions for improving the project? Let me know! 😄
 
 📧 Email: sohilkakaee55@gmail.com or sohilkakaee66@gmail.com
